@@ -14,3 +14,19 @@ h1{
     padding: 5px;
 }
 
+@media screen and (max-width:767px){
+    header{
+        width: 100%;    
+    }
+    header> th{
+        font-size: 20px;
+        color: red;
+    }
+    .container{
+        max-width: 90%;
+        display: block;
+    }
+    html{
+        overflow-x: hidden;
+    }
+}
